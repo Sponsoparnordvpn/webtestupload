@@ -5,6 +5,8 @@
     { "source": "/purchase/success", "destination": "/thanks.html" },
     { "source": "/purchase", "destination": "/pay.html" },
     { "source": "/dev_team", "destination": "/devteam.html" },
-    { "source": "/pricing", "destination": "/cart.html" }
+    { "source": "/pricing", "destination": "/cart.html" },
+    { "source": "/privacy_policy", "destination": "/privacypolicy.html" },
+    { "source": "/sponsoparnordvpn", "destination": "/aboutme.html" }
   ]
 }
