@@ -1,6 +1,10 @@
 {
   "rewrites": [
     { "source": "/tos", "destination": "/tos.html" },
-    { "source": "/", "destination": "/home.html" }
+    { "source": "/", "destination": "/home.html" },
+    { "source": "/purchase/success", "destination": "/thanks.html" },
+    { "source": "/purchase", "destination": "/pay.html" },
+    { "source": "/dev_team", "destination": "/devteam.html" },
+    { "source": "/pricing", "destination": "/cart.html" }
   ]
 }
