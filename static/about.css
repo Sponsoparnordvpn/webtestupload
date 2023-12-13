@@ -1,0 +1,93 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background: rgb(0, 0, 0); /* Adjusted the background color to make it lighter */
+}
+
+.about-card {
+  text-align: left; /* Adjusted text alignment */
+  padding: 20px;
+  background: rgb(30, 30, 30); /* Adjusted the card background color */
+  color: #ffffff; /* Changed text color to black */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.profile-container img {
+  border-radius: 50%;
+  max-width: 100%; /* Adjusted image width */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px;
+}
+
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.vlink {
+  color: #fff;
+  background: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  position: relative;
+  height: 30px;
+  line-height: 34px;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.vlink:hover {
+  box-shadow: 1px 2px 3px #341d9d;
+  background: rgb(91, 129, 242);
+}
+
+
+
+.vlink span {
+  position: absolute;
+  opacity: 0;
+  transition: transform 400ms ease-out;
+  margin-left: 10px;
+  box-shadow: 2px 4px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.vlink span:before {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid rgb(91, 129, 242);
+  left: -6px;
+  top: 50%;
+}
+
+
+
+/* Add your icon styles here */
+.icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  /* Add background or content property with icon image URL */
+}
+

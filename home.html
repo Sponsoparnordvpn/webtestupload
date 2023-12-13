@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Land HUB</title>
+    
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- Sweet Alert -->
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <!-- Highlight JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/tokyo-night-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+    
+    <link rel="stylesheet" href="/static/style.css" type="text/css">
+    
+    <meta name="theme-color" content="#0a101e">
+  </head>
+  <body>
+    <div id="home" class="article-1 d-flex flex-column justify-content-center align-items-center text-center w-100 h-100">
+      <p class="text-wrap fs-6 welcome">Welcome to —</p>
+      <h1 class="text-wrap title">Land HUB</h1>
+      <p class="text-wrap text-muted fs-6">Enhance your experience with Land Hub, cheats for any games.</p>
+      <button id="learnmore" onclick="OpenProj(this)" class="btn learn-more">Learn More.</button>
+    </div>
+    <div class="article-2 text-center">
+      <div id="features" class="d-flex flex-column align-items-center justify-content-center">
+        <h1 class="fs-1 fw700">Land HUB Features</h1>
+        <hr class="hr-style1">
+      </div>
+      <div class="features container mt-5">
+        <ul class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-2 text-center list-unstyled">
+          <li class="col f-item mt-5">
+            <div class="f-item-body text-center text-decoration-none text-white flex-column d-flex justify-content-center align-items-center">
+              <br>
+              <i class="bx bxs-dashboard f-logo foc-anim"></i>
+              <h3 class="fs-3 foc-anim">Custom Interface</h3>
+              <br>
+              <p class="text-wrap text-muted fs-6 foc-anim">Our UI is modern, elegant, custom, and fits for almost all devices. We also provide everything you need on the UI like informations, key, and more.</p>
+              <br>
+            </div>
+          </li>
+          <li class="col f-item mt-5">
+            <div class="f-item-body text-center text-decoration-none text-white flex-column d-flex justify-content-center align-items-center">
+              <br>
+              <i class="bx bxs-devices f-logo foc-anim"></i>
+              <h3 class="fs-3 foc-anim">Compatability</h3>
+              <br>
+              <p class="text-wrap text-muted foc-anim fs-6">The script will work on any devices such as Android/Ios and Windows/MacOS. Most of executors will be supported.</p>
+              <br>
+            </div>
+          </li>
+          <li class="col f-item mt-5">
+            <div class="f-item-body text-center text-decoration-none text-white flex-column d-flex justify-content-center align-items-center">
+              <br>
+              <i class="bx bxs-star f-logo foc-anim"></i>
+              <h3 class="fs-3 foc-anim">Quality Scripts</h3>
+              <br>
+              <p class="text-wrap text-muted foc-anim fs-6">As says the slogan, quality is our priority we ensure that the content of our scripts are not patched/detected and useful features, not like Demonic Hub.</p>
+              <br>
+            </div>
+          </li>
+          <li class="col f-item mt-5">
+            <div class="f-item-body text-center text-decoration-none text-white flex-column d-flex justify-content-center align-items-center">
+              <br>
+              <i class="bx bxs-rocket f-logo foc-anim"></i>
+              <h3 class="fs-3 foc-anim">Fast and Efficient</h3>
+              <br>
+              <p class="text-wrap text-muted foc-anim fs-6">Our first priority is to make our scripts fast and efficient for better scripting experience.</p>
+              <br>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <section class="spikes"></section>
+    <div id="projects" class="article-3 text-center">
+      <div class="d-flex flex-column align-items-center justify-content-center">
+        <h1 class="fs-1 fw700">Land HUB Projects</h1>
+        <hr class="hr-style1">
+      </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-7">
+            <a>
+              <img class="foc-anim img-fluid rounded mb-3 mb-md-0" src="https://tr.rbxcdn.com/760bf25cd6afd2da108cd97216f8f0ce/768/432/Image/Png" alt="obby bike">
+            </a>
+          </div>
+          <div class="col-md-5 text-start">
+            <h3 class="p-title text-wrap trac-anim">Obby but you're on a bike</h3>
+            <p class="text-muted text-wrap foc-anim">Simple script made by rojav with: Autofarm, Get Any Bike, Farm Candies and More.</p>
+            <button class="btn learn-more trac-anim" id="1" onclick="OpenProj(this)">Show Code</button>
+            <pre id="script1"><code class="language-lua mt- script11">print("hi")</code></pre>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-7">
+            <a>
+              <img class="foc-anim img-fluid rounded mb-3 mb-md-0" src="https://tr.rbxcdn.com/bdebe3d89e42c40657949b553b1411eb/768/432/Image/Png" alt="soccer ball">
+            </a>
+          </div>
+          <div class="col-md-5 text-start">
+            <h3 class="p-title text-wrap trac-anim">Soccer Ball</h3>
+            <p class="text-muted text-wrap foc-anim">The best Soccer Ball script with ping-based auto-shoot, instant auto-shoot, fling ball, and infinite game.</p>
+            <button class="btn learn-more trac-anim" id="2" onclick="OpenProj(this)">Show Code</button>
+            <pre id="script2"><code class="language-lua mt-1 script2">print("hi")</code></pre>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-7">
+            <a>
+              <img class="foc-anim img-fluid rounded mb-3 mb-md-0" src="https://tr.rbxcdn.com/3cc0748d8a8470a32be8b885b2fcbf6c/768/432/Image/Png" alt="soccer ball">
+            </a>
+          </div>
+          <div class="col-md-5 text-start">
+            <h3 class="p-title text-wrap trac-anim">Arm Wrestling Simulator</h3>
+            <p class="text-muted text-wrap foc-anim">Very good script made by rojav: Autofarm Candies, Autofarm grip, strength and more, auto defeat enemies, make events and more.</p>
+            <button class="btn learn-more trac-anim" id="3" onclick="OpenProj(this)">Show Code</button>
+            <pre id="script3"><code class="language-lua mt-1 script3">print("hi")</code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="vh-100 d-flex align-items-center position-fixed start-0 top-0" role="navigation">
+      <div class="p-2">
+        <div id="mainNav">
+          <ul class="list-unstyled rounded ms-2 side-nav">
+            <li class="homee"><a class="vlink rounded border-0" href="#home"><i class="bx bxs-home"></i></a></li>
+            <li><a class="vlink rounded" href="#features"><i class="bx bxs-bookmarks"></i></a></li>
+            <li><a class="vlink rounded" href="#projects"><i class="bx bxs-food-menu"></i></a></li>
+            <li><a class="vlink rounded" href="/pricing"><i class="bx bxs-cart"></i> </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <footer id="sticky-footer" class="flex-shrink-0 py-4 footer text-white-50">
+      <div class="container text-center">
+        <small>Copyright &copy; Land HUB</small>
+      </div>
+    </footer>
+    
+    <script src="static/script.js"></script>
+  </body>
+</html>

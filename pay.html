@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pay with PayPal</title>
+  <link rel="stylesheet" href="static/purchase.css">
+  <script src="https://www.paypal.com/sdk/js?client-id=AUr8Kq_C0rc7ocMm1UXklnqvLz4rdZ7-XEMUM_DrQsuIcZRx9btYCvTXYp6YefrLtbz4b9qQRgXuQmZV&currency=EUR"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  
+</head>
+<body>
+
+  <section>
+    <div class="card">
+      <h1 class="title">Purchase Page</h1>
+      
+      <!-- Product Image -->
+      <img class="p-item-image" src="https://krnl.vip/wp-content/uploads/2023/08/Elemental-Hub-Double-Down-2-1024x576.png" alt="Product Image">
+      
+      <!-- Product Title -->
+      <h2 class="p-title">Land Hub Lifetime Paid Access</h2>
+      
+      <!-- Product Description -->
+      <p class="description">Unlock your experience and enhance your gameplay with Land Hub Premium.
+</p>
+      <div class="terms-checkbox">
+  <input type="checkbox" id="terms-checkbox">
+  <label for="terms-checkbox"><a href="/tos" target="_blank">I accept the terms of service</a></label>
+      </div>
+      <!-- PayPal Button -->
+      <div id="paypal-button-container"></div>
+    </div>
+  </section>
+
+  <!-- PayPal Script -->
+
+
+<script src="static/paypal.js"></script>
+  
+</body>
+</html>

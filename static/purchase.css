@@ -1,0 +1,87 @@
+body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background: rgb(10, 10, 10);
+      font-family: "Poppins", Sans-Serif;
+      transition: 0.065s ease;
+      scroll-behavior: smooth;
+    }
+
+    section {
+      text-align: center;
+      max-width: 600px;
+      background-color: rgb(10, 10, 10);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      color: white;
+    }
+
+    h1.title {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    img.p-item-image {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    h2.p-title {
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    p.description {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      background: rgb(10, 10, 10);
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: 0.3s;
+      text-align: left;
+    }
+
+    .card:hover {
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    /* ... Your existing CSS code ... */
+
+.terms-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.terms-checkbox input {
+  margin-right: 10px;
+}
+
+.terms-checkbox label {
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.terms-checkbox a {
+  text-decoration: underline;
+  color: #3498db;
+}
+
+/* ... Your existing CSS code ... */
+
+    #paypal-button-container {
+      margin-top: 20px;
+    }
